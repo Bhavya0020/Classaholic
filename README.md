@@ -22,9 +22,7 @@ For students with temporary internet issues, there is a tutorial section which c
 The special feature _Capture the Class_ helps students in rural areas with very poor internet connectivity. Through this, a teacher can capture the whiteboard once it is filled and the image is converted so that it can reach easily to students with minimal internet usage. This way, students can learn through live notes and avoid backlogs.
 
 ## How we built it
-Basic UI has been built with React and Bootstrap as Front-End Frameworks. For discuss feature, canvas API has been used along with socket.io and peerjs. Canvas API is used for providing basic drawing features, socket.io for sending Realtime coordinates to all the joined users, peerjs which is built on top of WebRTC enables Realtime video conferencing. For record feature, mattdiamond is used.
-
-Capture the class uses Machine Learning frameworks python, numpy and opencv for first getting test data by first calebrating the board, it then converts it to grayscale and uses the edge detection,  to find the contour (outline) representing the whiteboard being scanned. It uses perspective transform to obtain the top-down view of the document. Finally jpeg image compression is used for getting a final compressed image.
+Basic UI has been built with React and Bootstrap as Front-End Frameworks. For discuss feature, canvas API has been used along with socket.io and peerjs. Canvas API is used for providing basic drawing features, socket.io for sending Realtime coordinates to all the joined users, peerjs which is built on top of WebRTC enables Realtime video conferencing. For record feature, mattdiamond is used.Capture the class uses Machine Learning frameworks python, numpy and opencv for first getting test data by first calebrating the board, it then converts it to grayscale and uses the edge detection,  to find the contour (outline) representing the whiteboard being scanned. It uses perspective transform to obtain the top-down view of the document. Finally jpeg image compression is used for getting a final compressed image.
 
 ## Challenges we ran into
 We faced difficulties with the machine learning frameworks. We also faced some difficulties in getting adapted to some new technologies like socket.io.
@@ -37,3 +35,7 @@ We learned computer vision and image processing via this model. We trained neura
 
 ## What's next for Classaholic
 We plan to bring more accuracy to the machine learning model we have used. We would also work on the UI to make it more pleasing to the eye. We plan to incorporate a chat feature in the live classrooms as well.
+
+
+## Demonstration Video
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RjoEIULIxxA/0.jpg)](https://www.youtube.com/watch?v=RjoEIULIxxA)
